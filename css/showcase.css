@@ -1,0 +1,187 @@
+.showcase .big-wrapper{
+    position: relative;
+    padding: 1.7rem 0;
+    width: 100%;
+    min-height: 55vh;
+    overflow: hidden;
+    background: linear-gradient(to top right, rgba(1, 27, 69, 1), rgba(0, 80, 207, 0.8)), url('../img/contact-handshake.jpg') no-repeat 0 -20rem;
+    border-radius: 0 0 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-main{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.showcase-main .title h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.showcase-main .desc{
+    color: #e9e9e9;
+    font-weight: 400;
+    margin: 1.8rem 0 2.6rem;
+    max-width: 600px;
+}
+
+.mapbox{
+    margin: 6rem 0;
+}
+
+.mapbox .container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mapbox .col-left{
+    padding: 0;
+    min-width: 40%;
+}
+
+.mapbox .title{
+    /* width: 65%; */
+}
+
+.mapbox .desc{
+    margin: 2rem 0 2.5rem 0;
+    font-weight: 600;
+}
+
+.mapbox .col-right{
+    border-radius: 1.125rem;
+    overflow: hidden;
+}
+
+/* Social ---------------------------------- */
+
+.social{
+    margin: 5rem 0 3rem 0;
+}
+
+.social .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.social-col{
+    min-width: 30%;
+    padding: 1.6rem;
+    border-radius: 1.125rem;
+    box-shadow: 0.4rem 1.5rem 4rem rgba(64, 203, 241, 0.12);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.social-col .title{
+    font-size: 2rem;
+    color: var(--primary-main-color);
+    transition: 0.2s;
+    margin-bottom: 0.8rem;
+}
+
+.social-col .icon-box-trans{
+    font-size: 3.2rem;
+    margin: 1rem;
+    color: var(--primary-main-color);
+    transition: 0.2s;
+}
+
+.social-call-content{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+.social-col:hover .title{
+    color: #fff;
+}
+
+.social-col:hover .desc{
+    color: #fff;
+}
+
+.social-col:hover .icon-box-trans{
+    color: #fff;
+}
+
+/* SERVICES PAGE -------------------------------------------------- */
+
+.showcase-s-ad .big-wrapper{
+    position: relative;
+    padding: 1.7rem 0;
+    width: 100%;
+    min-height: 55vh;
+    overflow: hidden;
+    background: linear-gradient(to top right, rgba(1, 27, 69, 1), rgba(0, 80, 207, 0.8)), url('../img/contact-call.jpg') no-repeat 0 -20rem;
+    border-radius: 0 0 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-ad-pricing {
+    margin: 4rem 0;
+}
+
+.s-ad-pricing .sap-content{
+    display: flex;
+    align-items: center;
+}
+
+.sap-content{
+    margin-bottom: 5rem;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.2em;
+    min-width: 100%;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .content-table thead tr {
+    background-color: var(--primary-gradient-color);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+
+    /* rgba(0, 80, 207, 0.8) */
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 15px 40px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--primary-gradient-color);
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: var(--primary-main-color);
+  }
+
+  .state{
+      margin-top: 3rem;
+      height: 100px;
+      background-color: #dddddd;
+      border-radius: 1.125rem;
+  }
