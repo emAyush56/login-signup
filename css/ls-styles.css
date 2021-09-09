@@ -12,8 +12,8 @@ body{
     padding: 2.5rem;
     margin: 1rem;
     background: #fff;
-    width: 400px;
-    max-width: 400px;
+    width: 380px;
+    max-width: 380px;
     border-radius: var(--border-radius);
     box-shadow: 0.4rem 1.5rem 4rem rgba(0, 0, 0, 0.1);
 }
@@ -66,8 +66,8 @@ body{
     padding: 1.5rem;
     margin: 1rem;
     background: #fff;
-    width: 400px;
-    max-width: 400px;
+    width: 380px;
+    /* max-width: 380px; */
     border-radius: var(--border-radius);
     box-shadow: 0.4rem 1.5rem 4rem rgba(0, 0, 0, 0.1);
 }
