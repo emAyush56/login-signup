@@ -12,8 +12,7 @@ body{
     padding: 2.5rem;
     margin: 1rem;
     background: #fff;
-    width: 380px;
-    max-width: 380px;
+    max-width: 400px;
     border-radius: var(--border-radius);
     box-shadow: 0.4rem 1.5rem 4rem rgba(0, 0, 0, 0.1);
 }
@@ -66,8 +65,7 @@ body{
     padding: 1.5rem;
     margin: 1rem;
     background: #fff;
-    width: 380px;
-    /* max-width: 380px; */
+    max-width: 400px;
     border-radius: var(--border-radius);
     box-shadow: 0.4rem 1.5rem 4rem rgba(0, 0, 0, 0.1);
 }
@@ -84,4 +82,17 @@ body{
 .ls-form a:hover, .ls-create-ac a:hover{
     color: var(--secondary-gradient-color);
     transition: 0.3s;
+}
+
+@media (max-width: 991px){
+    .ls-form .desc, .ls-create-ac .desc{
+        font-size: 0.8rem;
+    }
+
+    .ls-form .title{
+        font-size: 1.1rem;
+    }
+    
+    .ls-form .form-input{
+        font-size: 1rem;
 }
